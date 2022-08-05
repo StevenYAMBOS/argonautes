@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Les Argonautes</title>
+</head>
+
+
+<body>
+
+<!-- Header -->
+    <header>
+        <h1>
+            <img src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png"
+                alt="Wild Code School logo" />
+            Les Argonautes
+        </h1>
+    </header>
+
+
+<!-- Main -->
+    <main>
+        <!-- Formulaire -->
+        <h2>Ajouter un(e) Argonaute !</h2>
+        <form class="new-member-form">
+            <label for="name"></label>
+            <input id="username" name="name" type="text" placeholder="Thomas Aldaitz" />
+            <button type="submit" onclick="add()" id="submit" class="btn">Ajouter !</button>
+        </form>
+
+        <!-- Liste des membres -->
+        <h2>Membres de l'équipage</h2>
+        <section class="member-list">
+            <div class="member-item">Eleftheria</div>
+            <div class="member-item">Gennadios</div>
+            <div class="member-item">Lysimachos</div>
+        </section>
+    </main>
+
+
+<!-- Footer -->
+    <footer>
+        <p>Réalisé par Jason en Anthestérion de l'an 515 avant JC</p>
+    </footer>
+
+
+<!-- JAVASCRIPT -->
+<!-- Installation et configuration du SDK (méthode CDN, le NPM n'a pas fonctionné) -->
+    <script>"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js"</script>
+    <script>"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js"</script>
+    <script src="./main.js"></script>
+
+</body>
+</html>

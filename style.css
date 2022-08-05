@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f4f4f4;;
+
+}
+
+/* __________HEADER__________ */
+header {
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    line-height: 150px;
+  }
+  
+  header img {
+    max-width: 96px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+
+
+/* __________MAIN__________ */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 1%;
+    
+}
+/* Titres */
+h1, h2 {
+  text-align: center;
+}
+form{
+    text-align: center;
+    width: 300px;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: white;
+    color: #f76c6c; 
+}
+.new-member-form {
+  margin: 1em 0 4em 0;
+  text-align: center;
+
+}
+.member-item {
+  padding: 0.20em 0;
+}
+button{
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    background: linear-gradient(to right, #f96767, #ff8f8f);
+    color: white;
+}
+button:hover{
+    transition: 0.4s;
+    color: #f76c6c;
+    background: white;
+    /* box-shadow: ; */
+}
+
+
+/* __________FOOTER__________ */
+footer {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0.25em;
+    text-align: center;
+    color: #fff;
+    background: #f76c6c;
+}
